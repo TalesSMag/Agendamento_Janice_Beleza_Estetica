@@ -38,7 +38,7 @@ code . (abrir pasta no VScode);
    Abra o CMD, e digite o comando: npx nodemon app
 
 
- Rodar Frontend do Sitema:
+# Rodar Frontend do Sitema:
 
    Procure o local do arquivo, abra a pasta: "Agendamento_Janice_Beleza_Estetica"
 
