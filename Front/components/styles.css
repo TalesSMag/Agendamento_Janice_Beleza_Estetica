@@ -1,0 +1,7 @@
+/* styles.css */
+.navbar-brand img {
+    margin: 0; /* Remove toda margem ao redor da imagem */
+    width: 400px; /* Ajuste a largura conforme necessário */
+    height: auto; /* Mantém a proporção da altura */
+  }
+  

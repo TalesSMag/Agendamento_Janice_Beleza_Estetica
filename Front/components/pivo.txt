@@ -1,0 +1,12 @@
+<i 
+          class="bi bi-hand-thumbs-up-fill text-custom ms-2"  
+          style={{ fontSize: 15, cursor: "pointer" }}
+          onClick={props.compareceu}
+          title="Compareceu"
+        ></i>
+        <i 
+          class="bi bi-hand-thumbs-down-fill text-custom ms-2"  
+          style={{ fontSize: 15, cursor: "pointer" }}
+          onClick={props.ncompareceu}
+          title="Não Compareceu"
+        ></i>

@@ -1,0 +1,18 @@
+{
+  "agendas": [
+    {
+      "nome": "Tales Spindler Magnante",
+      "contato": "53991737402",
+      "nscimento": "04/11/2002",
+      "endereco": "Rua Helena Coswig Leitzke 262",
+      "servico": "Manicure",
+      "descricao": "Unhas em gel",
+      "duracao": "30 min",
+      "hora": "15:30",
+      "data": "2023-12-24",
+      "profissional": "Taina", 
+      "capa": "logo_rosa.png",
+      "id": 1
+    }
+  ]
+}

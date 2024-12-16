@@ -1,0 +1,111 @@
+:root {
+    --custom-secondary: #FF4747;
+  }
+  
+  .btn-outline-custom-secondary {
+    color: var(--custom-secondary);
+    border-color: var(--custom-secondary);
+    border-width: 2px; /* Ajuste a largura da borda conforme necessário */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 2rem; /* Ajuste o padding conforme necessário */
+    /* width: 500px; Largura do botão */
+    margin-bottom: 20px; /* Margem na parte inferior */
+  }
+  
+  .btn-outline-custom-secondary:hover {
+    background-color: var(--custom-secondary);
+    color: white;
+  }
+  .btn-outline-custom-secondary i {
+    margin-top: 0.5rem; /* Espaçamento entre o texto e o ícone */
+  }
+  .btn-custom-secondary {
+    color: var(--custom-secondary);
+    background-color: #FF4747;
+    border-color: var(--custom-secondary);
+    border-width: 2px; /* Ajuste a largura da borda conforme necessário */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 2rem; /* Ajuste o padding conforme necessário */
+    width: 150px; /* Largura do botão */
+    margin-bottom: 20px; /* Margem na parte inferior */
+  }
+  
+  .btn-custom-secondary:hover {
+    background-color: var(--custom-secondary);
+    color:#FF4747;
+  }
+  .button-container {
+    display: flex;
+    gap: 1rem; /* Espaçamento entre os botões */
+  }
+  .custom-border {
+    border-color: #FF4747 !important; /* Define a cor da borda */
+    border-width: 3px;
+  }
+  .text-custom {
+    color: var(--custom-secondary);
+  }
+  .link-custom {
+    color: var(--custom-secondary);
+    border-color: var(--custom-secondary);
+    border-width: 2px; /* Ajuste a largura da borda conforme necessário */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 500px; Largura do botão */
+  }
+  .link-custom:hover {
+    background-color: var(--custom-secondary);
+    color: white;
+  }
+  .fixed-input {
+    width: 100%;
+    max-width: 1000px; /* Ajuste esse valor conforme necessário */
+    flex-grow: 1;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .img-close {
+    margin-left: 5px; /* Ajuste conforme necessário */
+  }
+
+  .paginacao-button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    font-size: 16px;
+    color: var(--custom-secondary);
+    background-color: white;
+    border-color: var(--custom-secondary);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .paginacao-button:hover {
+    background-color: var(--custom-secondary);
+    color: white;
+  }
+  
+  .paginacao-button:disabled {
+    background-color: white; 
+    border-color: var(--custom-secondary);
+    color: var(--custom-secondary);
+    cursor: not-allowed;
+  }
+  
+  .paginacao-info {
+    font-size: 16px;
+    margin: 0 10px;
+    font-weight: bold;
+  }
